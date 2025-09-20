@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekstil Tasarrufu - Sürdürülebilir Moda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'eco-green': '#22c55e',
+                        'eco-dark': '#15803d',
+                        'eco-light': '#dcfce7',
+                        'earth-brown': '#a3a3a3',
+                        'natural-beige': '#f5f5f4'
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-900 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-leaf text-eco-green text-2xl"></i>
+                    <span class="text-xl font-bold text-eco-dark">EkoTekstil</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#anasayfa" class="text-gray-700 hover:text-eco-green transition-colors">Ana Sayfa</a>
+                    <a href="#hakkimizda" class="text-gray-700 hover:text-eco-green transition-colors">Hakkımızda</a>
+                    <a href="#ipuclari" class="text-gray-700 hover:text-eco-green transition-colors">Eco İpuçları</a>
+                    <a href="#makaleler" class="text-gray-700 hover:text-eco-green transition-colors">Makaleler</a>
+                    <a href="#iletisim" class="text-gray-700 hover:text-eco-green transition-colors">İletişim</a>
+                </div>
+                <button class="md:hidden">
+                    <i class="fas fa-bars text-gray-700"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="anasayfa" class="bg-gradient-to-br from-eco-light to-natural-beige py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl lg:text-6xl font-bold text-eco-dark mb-6 leading-tight">
+                        Tekstil Tasarrufu ile 
+                        <span class="text-eco-green">Geleceği Koruyalım</span>
+                    </h1>
+                    <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                        Sürdürülebilir moda alışkanlıkları ile çevreyi koruyun, tekstil atıklarını azaltın ve bilinçli tüketim yapın. Küçük adımlarla büyük değişimler yaratabilirsiniz.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-eco-green text-white px-8 py-3 rounded-lg font-semibold hover:bg-eco-dark transition-colors">
+                            Hemen Başla
+                        </button>
+                        <button class="border-2 border-eco-green text-eco-green px-8 py-3 rounded-lg font-semibold hover:bg-eco-green hover:text-white transition-colors">
+                            Daha Fazla Bilgi
+                        </button>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="/placeholder.svg?height=400&width=500" 
+                         alt="Sürdürülebilir Tekstil" 
+                         class="rounded-2xl shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-eco-dark mb-4">Tekstil Endüstrisinin Çevresel Etkisi</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Tekstil sektörünün çevre üzerindeki etkisini gösteren önemli istatistikler</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-eco-light p-8 rounded-xl text-center">
+                    <div class="text-4xl font-bold text-eco-dark mb-2">92M</div>
+                    <div class="text-sm text-gray-600 mb-2">TON</div>
+                    <div class="text-gray-700">Yıllık tekstil atığı</div>
+                </div>
+                <div class="bg-eco-light p-8 rounded-xl text-center">
+                    <div class="text-4xl font-bold text-eco-dark mb-2">2.700L</div>
+                    <div class="text-sm text-gray-600 mb-2">SU</div>
+                    <div class="text-gray-700">Bir tişört için gereken su</div>
+                </div>
+                <div class="bg-eco-light p-8 rounded-xl text-center">
+                    <div class="text-4xl font-bold text-eco-dark mb-2">%20</div>
+                    <div class="text-sm text-gray-600 mb-2">AZALMA</div>
+                    <div class="text-gray-700">Bilinçli tüketimle tasarruf</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Articles -->
+    <section id="makaleler" class="py-16 bg-natural-beige">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-eco-dark mb-4">Öne Çıkan Makaleler</h2>
+                <p class="text-gray-600">Sürdürülebilir moda ve tekstil tasarrufu hakkında en güncel bilgiler</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <article class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <img src="/placeholder.svg?height=200&width=300" 
+                         alt="Sürdürülebilir Gardırop" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+text-eco-dark mb-3">Sürdürülebilir Gardırop Nasıl Oluşturulur?</h3>
+                        <p class="text-g                        <h3 class="text-xl font-semibold ray-600 mb-4">Kaliteli, uzun ömürlü kıyafetler seçerek çevreye duyarlı bir gardırop oluşturmanın yolları...</p>
+                        <a href="#" class="text-eco-green font-semibold hover:text-eco-dark transition-colors">Devamını Oku →</a>
+                    </div>
+                </article>
+                <article class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <img src="/placeholder.svg?height=200&width=300" 
+                         alt="Tekstil Geri Dönüşümü" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-eco-dark mb-3">Tekstil Geri Dönüşümü Rehberi</h3>
+                        <p class="text-gray-600 mb-4">Eski kıyafetlerinizi nasıl geri dönüştürebilir ve yeniden değerlendirebilirsiniz...</p>
+                        <a href="#" class="text-eco-green font-semibold hover:text-eco-dark transition-colors">Devamını Oku →</a>
+                    </div>
+                </article>
+                <article class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <img src="/placeholder.svg?height=200&width=300" 
+                         alt="Organik Kumaşlar" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-eco-dark mb-3">Organik Kumaşların Avantajları</h3>
+                        <p class="text-gray-600 mb-4">Organik pamuk, keten ve diğer doğal kumaşların ç
