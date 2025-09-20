@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeniden Giydir - Tekstil Tasarrufu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Yeniden Giydir</div>
+                <ul class="nav-links">
+                    <li><a href="#detoks">Gardırop Detoksu</a></li>
+                    <li><a href="#onar">Onar & Yenile</a></li>
+                    <li><a href="#donustur">Dönüştür & Yarat</a></li>
+                    <li><a href="#blog">Neden Tasarruf?</a></li>
+                </ul>
+                <div class="menu-toggle">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Modayı Yeniden Düşün, Tekstil Atıklarını Azalt</h1>
+                <p>Kıyafetlerini daha bilinçli kullanarak hem bütçeni koru hem de gezegenimize destek ol.</p>
+                <a href="#detoks" class="cta-button">Hemen Başla</a>
+            </div>
+        </section>
+
+        <section id="detoks" class="content-section">
+            <div class="container">
+                <h2>Gardırop Detoksu</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="https://via.placeholder.com/300" alt="Ayıklama">
+                        <h3>1. Ayıkla</h3>
+                        <p>Giymediklerini, bedenine uymayanları ve ihtiyaç fazlası olanları belirle.</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://via.placeholder.com/300" alt="Organize Etme">
+                        <h3>2. Organize Et</h3>
+                        <p>Kıyafetlerini mevsimlere ve kullanıma göre düzenleyerek gardırobunu verimli kullan.</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://via.placeholder.com/300" alt="Kapsül Gardırop">
+                        <h3>3. Kapsül Oluştur</h3>
+                        <p>Az sayıda parça ile çok fazla kombin yapma sanatını keşfet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="onar" class="content-section grey-bg">
+            <div class="container">
+                <h2>Onar & Yenile</h2>
+                <p>Küçük dokunuşlarla kıyafetlerinin ömrünü uzat.</p>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="https://via.placeholder.com/300" alt="Onarım">
+                        <h3>Düğme ve Sökük Tamiri</h3>
+                        <p>Basit dikiş teknikleri ile kıyafetlerini onar.</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="https://via.placeholder.com/300" alt="Yenileme">
+                        <h3>Yenileme Fikirleri</h3>
+                        <p>Boyama, yama ekleme gibi yöntemlerle kıyafetlerine yeni bir hava kat.</p>
+                    </div>
+                </div>
